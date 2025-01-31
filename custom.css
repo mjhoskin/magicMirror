@@ -1,13 +1,7 @@
-﻿/*For fullscreen background image. Place image in /css folder. Replace image title in the quotes with your image name. */
-.region.fullscreen.below {
-	background-image: url("wallpaper1.jpg");
-	background-size: cover; /*cover = resize to fill screen, contain = resize to show whole image, auto = original size. Needed if background image isnt same resolution as display*/
-}
-
 /*sets a static region width and keeps set margins, otherwise it will be adaptable.*/
 /*Previously, long item names on the to do list would expand and overlap with the calendar.*/
 .region.top.right {
-    width: 300px;
+    width: 30px;
 }
 
 /*customizes module width from standard region width*/
@@ -48,20 +42,4 @@
 	border-radius: 10px;
 	border: 2px solid #69C;
 	color: #000;
-}
-
-/*changes newsfeed title color (default modules use the main MM css so that terminology must be used to override, .bright for article title .dimmed for feed title)*/
-.newsfeed .dimmed {
-    color: #202020;
-}
-
-/*Align Microsoft To Do list lext to the left*/
-.MMM-MicrosoftToDo .module-content {
-	text-align: left;
-	color: #FFFFFF;
-}
-
-/*Align module header to the left: change module name to fit your module*/
-.MMM-MicrosoftToDo .module-header {
-        text-align: left;
 }
